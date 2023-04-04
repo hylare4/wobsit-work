@@ -1,0 +1,305 @@
+.txt{
+    font-size: 60px;
+    text-shadow: 1px 0px 4px aqua;
+    font-weight: bold;
+    font-family: jokerman;
+    color: white;
+    width: fit-content;
+    position: fixed;
+    padding:2px;
+    border-radius: 120px;
+    margin-top: -5px;
+    box-shadow: 0px 0px 9px aqua;
+    background-color: #000;
+}
+.intro{
+    display: flex;
+}
+h1{
+    text-align: center;
+    background-color: powderblue !important ;
+    box-shadow: 2px 0px 4px aquamarine;
+    padding: 5px;
+    color: black;
+    text-shadow: 2px 0px 6px lightblue;
+}
+*{
+    padding: 0px;
+}
+li{
+    list-style-type: none;
+}
+.content li .see{
+    float: right;
+    margin-top: -36px;
+    box-shadow: 0px 0px 6px black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 22px;
+    text-shadow: none;
+    color: #000;
+    transition: 0.5s ease-out;
+    padding: 5px;
+}
+.content li .see:hover{
+    background-color: orange;
+    color: white;
+    transition: 0.5s ease-in;
+}
+p{      color: black;
+        width: 600px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 6px;
+        padding: 20px;
+        font-style: oblique;
+        margin-left: 10px;
+        font-size: 25px;
+        margin-top: 0px;
+        font-family: goudy old style;
+}
+.pix,#pix{
+    color: black;
+    background-color: #f3f3f3;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px;
+    padding: 20px;
+    font-style: oblique;
+    margin-left: 10px;
+    font-size: 25px;
+    margin-top: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.pic{
+    margin-left: 25px;
+    margin-top: 0px;
+}
+.context{
+    display:inline-flex;
+    padding: 10px;
+}
+.visit {
+    color:white;
+    background-color: orange;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    align-content: center;
+    align-items: center ;
+    text-align: center;
+    transition: 0.5s ease-out;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: -10px;
+}
+.visit:hover{
+    box-shadow: 0px 0px 10px black;
+    color: unset;
+    color: black;
+    margin-top: -10px;
+    transition: 0.5s ease-out;
+    background-color:unset;
+}
+.now:hover{
+    color: black;
+}
+.now{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+.link nav ul {
+    display: flex;
+    position: ;
+    float: left;
+    height: 30px;
+    width: 1335px;
+    background-color: cadetblue;
+}
+ul li{
+    margin-left: 100px;
+    
+}
+li a{
+    text-decoration: none;
+    color:white ;
+    text-align: center;
+    align-items: center;
+    padding: 35px;
+    font-size: 20px;
+}
+.first{
+    margin-top: 70px;
+    display:flex;
+}
+.first img{
+    width:638px;
+    margin-left: 40px;
+    height: 430px;
+    margin-top: 0px;
+    position:sticky;
+    border-radius: 10px;
+    filter: blur(3px);
+   
+}
+.first img:hover,.first img:active,.first img:focus-visible{
+    animation-name: first;
+    animation-duration: 2s;
+}
+@keyframes first{
+    from{opacity: 30%;}
+    to{opacity: 0%;}
+}
+.first p{
+    width: 599px;
+    height: 390px;
+    opacity: 100%;
+    filter: blur(0px);
+    color: white;
+    text-shadow: 1px 0px 4px black;
+    font-size: 25px;
+    margin-left:-638px;
+    
+}
+.first p:hover{
+    animation-name: p;
+    animation-duration: 2s;
+    animation-delay: 0.4s;
+    transition-timing-function: ease-in;
+    cursor: pointer;
+}
+@keyframes p{
+    from{opacity: 80%;}
+    to{opacity: 100%;background-color: darkcyan;}
+}
+.picture{
+    display: flex;
+    margin-left: -2rem;
+    margin-top: -20vh;
+}
+.second p{
+    width: 598px;
+    height: 390px;
+    opacity: 100%;
+    margin-left: 12px;
+    background:none;
+    color: white;
+    text-shadow: 1px 0px 4px black;
+    filter: blur(0px);
+    margin-top: -434px;
+}
+.second p:hover{
+    animation-name: sc;
+    cursor: pointer;
+    animation-duration: 4s;
+}
+@keyframes sc{
+    from{opacity:80%}
+    to{background-color: darkcyan;}
+}
+.second img{
+    width:638px;    
+    height: 430px;
+    margin-top: 70px;
+    filter: blur(4px);
+    border-radius: 10px;
+    margin-left: 12px;
+}
+.pacs{
+    display: flex;
+}
+.third img{
+    width:638px;
+    margin-left: 7px;
+    height: 430px;
+    filter: blur(2px);
+    margin-top: 0px;
+    border-radius: 10px;
+}
+.third p{
+    width: 598px;
+    height: 390px;
+    opacity: 100%;
+    margin-left: 7px;
+    filter: blur(0px);
+    clear:left;
+    color: white;
+    text-shadow:1px 0px 4px black;
+    background:none;
+    margin-top: -434px;
+}
+.third p:hover{
+    cursor: pointer;
+    animation-name: rd;
+    animation-duration: 4s;
+}
+@keyframes rd{
+    from{opacity: 80%;}
+    to{background-color: darkcyan;}
+}
+.forth img{
+    width:638px;
+    margin-left: 10px;
+    height: 430px;
+    margin-top: 0px;
+    border-radius: 10px;
+}
+.forth p{
+    width: 598px;
+    height: 390px;
+    opacity: 100%;
+    margin-left: 10px;
+    filter: blur(0px);
+    clear:left;
+    color: white;
+    text-shadow:1px 0px 4px black;
+    background:none;
+    margin-top: -434px;
+
+}
+.forth p:hover{
+    animation-name: for;
+    animation-duration: 4s;
+    cursor: pointer;
+}
+@keyframes for {
+    from{opacity: 80%;}
+    to{opacity: 80%;background-color: darkcyan;}
+}
+.vs:hover,.vs:focus{
+    box-shadow: 0px 0px 14px black;
+    background-color:lightsalmon;
+
+}
+@media(max-width:716px){
+    .pacs{
+        display: grid;
+    
+    }
+}
+@media(max-width:716px){
+    .context{
+        display: grid;
+    
+    }
+}
+@media(max-width:716px){
+    .picture{
+        display: grid;
+        margin-left: -0rem;
+        margin-top: -20vh;
+    
+    }
+}
+@media(max-width:716px){
+    .link nav ul {
+        display: flex;
+        position: ;
+        float: left;
+        height: 30px;
+        width: 1335px;
+        background-color: cadetblue;
+    }
+}
